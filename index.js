@@ -59,6 +59,7 @@ user2.save().then((res) => {
 });
 **/
 
+/** 
 User.findOne({age: {$gte: 25}})
 .then((res) => {
     console.log(res);
@@ -66,3 +67,6 @@ User.findOne({age: {$gte: 25}})
 .catch((err) => {
     console.log(err);
 });
+**/
+
+
