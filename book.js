@@ -22,6 +22,10 @@ const bookSchema = new mongoose.Schema({
      price:{
         type:Number,
      },  
+     discount:{
+        type:Number,
+        default:0
+     },
 });
 
 const Book = mongoose.model('Book', bookSchema);
